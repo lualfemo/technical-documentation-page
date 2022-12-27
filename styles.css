@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*Ccontenedor principal*/
+
+#main-container {
+    display: flex;
+    font-size: 1.7rem;
+}
+
+/*nav-bar*/
+
+#navbar {
+    width: 20%;
+    border-right: 2px solid rgb(81, 118, 128);
+    position: fixed;
+    height: 100%;
+}
+
+header {
+    font-size: 3.5rem;
+}
+
+#navbar header {
+    padding: 1rem;
+    text-align: center;
+}
+
+#navbar li {
+    border-top: 2px solid rgb(81, 118, 128);
+    padding: 1rem;
+}
+
+#navbar li:last-child {
+    border-bottom: 2px solid rgb(81, 118, 128);
+}
+
+/*main-doc*/
+
+#main-doc {
+    margin-left: 30rem;
+}
+
+/*Secciones*/
+
+.main-section {
+    padding: 2rem;
+}
+
+/*Articles*/
+
+article {
+    padding: 2rem;
+}
