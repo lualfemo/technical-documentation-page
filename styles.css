@@ -28,7 +28,7 @@ html {
 }
 
 header {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 #navbar header {
@@ -38,7 +38,7 @@ header {
 
 #navbar li {
     border-top: 2px solid rgb(81, 118, 128);
-    padding: 1rem;
+    padding: 0.6rem;
 }
 
 #navbar li:last-child {
@@ -94,7 +94,7 @@ code {
     margin-top: 1rem;
 }
 
-@media (max-width: 1365px) {
+@media (max-width: 1366px) {
    #navbar {
     width: auto;
    }
@@ -110,4 +110,10 @@ code {
    .main-section {
     margin-left: 1rem;
    }
+}
+
+@media (min-width: 1367px) {
+    .nav-link {
+       padding: 1rem;
+    }
 }
