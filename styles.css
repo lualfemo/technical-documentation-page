@@ -7,6 +7,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Exo 2', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*Ccontenedor principal*/
@@ -23,6 +24,7 @@ html {
     border-right: 2px solid rgb(81, 118, 128);
     position: fixed;
     height: 100%;
+    max-width: 300px;
 }
 
 header {
@@ -43,20 +45,69 @@ header {
     border-bottom: 2px solid rgb(81, 118, 128);
 }
 
+.nav-link {
+    text-decoration: none;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: rgb(208, 213, 213);
+    padding: 1rem;
+}
+
 /*main-doc*/
 
 #main-doc {
     margin-left: 30rem;
+    line-height: 2.5rem;
 }
 
 /*Secciones*/
 
 .main-section {
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 /*Articles*/
 
 article {
     padding: 2rem;
+}
+
+article li {
+    margin: 0 0 2rem 4rem;
+}
+
+.data-types-list li {
+    margin-left: 7rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+code {
+    display: block;
+    background-color: rgb(239, 239, 239);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1365px) {
+   #navbar {
+    width: auto;
+   }
+
+   #navbar ul {
+    list-style: none;
+   }
+
+   .nav-link {
+    text-decoration: none;
+   }
+
+   .main-section {
+    margin-left: 1rem;
+   }
 }
